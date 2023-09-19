@@ -2,7 +2,7 @@
   package="com.kino.video_360">
 
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:networkSecurityConfig="@xml/network_security_config">
+  <application>
         <activity
             android:name=".player.VRActivity"
             android:launchMode="singleTask"
